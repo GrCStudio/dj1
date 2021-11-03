@@ -39,6 +39,6 @@ def workdir_view(request):
     msg = ''
     for item in workdir:
         msg += item
-        msg += '\n'
+        msg += '<br>'
     print(msg)
     return HttpResponse(msg)
